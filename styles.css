@@ -236,6 +236,7 @@ body, html {
   text-align: center;
   width: 100%;
   font-weight: bold;
+  font-size: 2vh;
 }
 .add1::before{
   content: "ADDED";
@@ -324,7 +325,8 @@ body, html {
   color: grey;
   border-width: 0.5vh;
   border-style: ridge;
-
+  margin-bottom: 1vh;
+  margin-top: 1vh;
 }
 .genre{
   margin-bottom: 1vh;
@@ -354,6 +356,7 @@ body, html {
   font-weight: bolder;
   box-shadow: 6vw inset;
   text-shadow: 3vw ;
+  font-size: 2vh;
 }
 .book:hover .fiction{
   opacity:1;
@@ -384,4 +387,7 @@ body, html {
 }
 .add1:hover ,.desc:hover{
   opacity: 80%;
+}
+.desc,.Description{
+  font-size: 2vh;
 }
