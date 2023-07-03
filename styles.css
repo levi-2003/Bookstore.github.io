@@ -1,10 +1,11 @@
+
 body, html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
   }
   .bookstore{
-    border-radius: 30px;
+    border-radius: 5vh;
     border-style: groove;
     border-color: rgb(147, 216, 241);
     height: 50vh;
@@ -18,7 +19,7 @@ body, html {
   }
   .br-container{
     display: flex;
-    padding-top: 15px;
+    padding-top: 3vh;
   }
   .inside{
     height: 15vh;
@@ -40,7 +41,7 @@ body, html {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    border-radius: 40px;
+    border-radius: 3vh;
   }
   #page1:hover nav{
     top: 2vh;
@@ -49,7 +50,7 @@ body, html {
   nav {
     background-color: #ece4fa;
     background-image: url("https://images.pexels.com/photos/301717/pexels-photo-301717.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    border-radius: 20px;
+    border-radius: 5vh;
     height: max-content;
     position: fixed;
     top: -11vh;
@@ -80,24 +81,24 @@ body, html {
     position: relative;
     height: max-content;
     margin: 0;
-    right: 2rem;
+    right: 1vw;
     align-items: center;
   }
   
   nav ul li {
-    padding-left: 2rem;
+    padding-left: 2vw;
     width: 100%;
     display: inline-block;
     font-family: 'Lora', serif;
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    font-size: 2.4vh;
+    margin-top: 1.5vh;
     justify-content: center;
     color: #001C30;
   }
   
   .icon {
-    height: 5rem;
-    width: 7rem;
+    height: 9vh;
+    width: 10vw;
     position: relative;
     padding-bottom: 2vh;
   }
@@ -238,13 +239,13 @@ body, html {
 }
 .add1::before{
   content: "ADDED";
-  top:20px;
+  top:5vh;
   position: absolute;
 }
 .add1:focus::after{
-  top:20px;}
+  top:5vh;}
 .add1:focus::before{
-  top:0px;
+  top:0;
 }
 .add1:focus{
   background-color: #5FD068;
@@ -290,7 +291,7 @@ body, html {
   to{transform: translate(0);}
 }
 @keyframes l{
-  from{transform:translateY(-2rem);}
+  from{transform:translateY(-5vh);}
   to{transform: translate(0);}
 }
 .book:hover .bookimg{
@@ -308,7 +309,7 @@ body, html {
   animation-timing-function: ease;}
 .price{
   font-weight: bolder;
-  margin: 0.2rem 0 0.5rem 0;
+  margin: 0.2vh 0 0.7vh 0;
   font-size: 2vh;
   color: darkred;
 }
@@ -340,13 +341,13 @@ body, html {
   justify-content: center;
   height: 2.7vh;
   align-content: center;
-  border-radius: 0.3rem;
+  border-radius: 0.5vh;
   opacity:0;
   transition: opacity 2s;
   font-family: 'Ubuntu Mono', monospace;
   font-weight: bolder;
-  box-shadow: 15px inset;
-  text-shadow: 10px;
+  box-shadow: 6vw inset;
+  text-shadow: 3vw ;
 }
 .book:hover .fiction{
   opacity:1;
@@ -364,10 +365,10 @@ body, html {
   align-content: center;
   font-weight: bolder;
   border-radius: 1vh;
-  box-shadow: 5px;
+  box-shadow: 5vw;
   padding: 1vh;
   margin-top: 1vh;
-  border-width: 3px;
+  border-width: 0.3vh;
   border-style:solid;
 }
 .Description{
