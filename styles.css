@@ -282,8 +282,13 @@ body, html {
 }
 .heading{
   font-family: 'Ubuntu Mono', monospace;
+  font-size: 3vh;
 }
-.authur,.content,.genre,.des{
+.authur{
+  font-size: 2.5vh;
+}
+
+.authur,.genre,.des{
   font-family: 'Alegreya Sans', sans-serif;
 }
 @keyframes k{
@@ -324,10 +329,11 @@ body, html {
 .genre{
   margin-bottom: 1vh;
 }
-.des,.genre{
+.des, .genre{
   font-size: large;
   color: #0B2447;
   font-weight: bolder;
+  font-size: 2vh;
 }
 .fiction{
   position: absolute;
