@@ -536,7 +536,7 @@ column-gap: 1vw;}
   display: flex;
   flex-direction: column;
   width: 65%;
-  height: 73vh;
+  height: max-content;
   padding: 1.6%;
   border-radius: -1vh;
 }
@@ -638,3 +638,69 @@ appearance: none;}
   font-size: 2vh;
   cursor: pointer;
 }
+#page5{
+  width: 99vw;
+  height: 40vh;
+  background: #001C30;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+.links{
+  display: flex;
+  column-gap: 1vw;
+}
+.address{
+  width: 20vw;
+  height: max-content;
+  margin-left: 3vw;
+  
+  margin-top: 3vh;
+  font-family: 'Dosis', sans-serif;
+  
+}
+.address1{
+  color: #E3F4F4;
+  font-size: 3vh;
+}
+.opens{
+  color: #E3F4F4;
+  font-size: 2.5vh;
+  font-family: 'Dosis', sans-serif;
+}
+.review{
+  column-gap: 0.5vh;
+}
+.icon1{
+  font-size: 3vh;
+}
+.follow {
+  position: relative;
+  display: flex;
+  padding: 2vw;
+  align-items: center;
+  column-gap: 1vh;
+  font-size: 2vh;
+}
+.contact{
+  padding: 2vw;
+  line-height: 2vh;
+  align-content: center;
+  padding-top: 4vh;
+  padding-left: 2vw;
+  position: relative;
+  top: 4vh;
+}
+.opens{
+  text-decoration: none;
+}
+.terms{
+ padding-top: 10vh;}
+ .end{
+  
+  height: 27vh;
+  width: 10vw;
+  padding :2vh;
+  padding-top: 4vh;
+  padding-left: 2vw;
+
+ }
