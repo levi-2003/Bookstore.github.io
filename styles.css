@@ -476,7 +476,7 @@ column-gap: 1vw;}
   border-radius: 1vh;
   border-style: groove;
   box-shadow: 0.3vh 0.3vh;
-  transition: ease-in 0.5s;
+  transition: ease-in-out 0.5s;
 }
 .bookimg2{
   height: 25vh;
@@ -509,9 +509,8 @@ column-gap: 1vw;}
 }
 .book2:hover{
    border-width: 0.5vh;
-   height: 35vh;
-   width: 37vw;
-   transform: translateY(-20%);
+   
+   transform: translateY(-10%);
    z-index: 1;
 }
 .inside:hover{
@@ -547,7 +546,7 @@ column-gap: 1vw;}
 .customer-review{
   display: flex;
   flex-direction: column;
-  height:34rem;
+  height:65vh;
   width:20vw;
   background-color: #FFEAEA;
   padding: 1vh;
@@ -647,12 +646,13 @@ appearance: none;}
 }
 .links{
   display: flex;
-  column-gap: 1vw;
+  column-gap: 0.2vw;
+  height: 40vh;
 }
 .address{
   width: 20vw;
   height: max-content;
-  margin-left: 3vw;
+  margin-left: 2vw;
   
   margin-top: 3vh;
   font-family: 'Dosis', sans-serif;
@@ -676,10 +676,12 @@ appearance: none;}
 .follow {
   position: relative;
   display: flex;
-  padding: 2vw;
+  padding: 1vw;
   align-items: center;
   column-gap: 1vh;
   font-size: 2vh;
+  height: 30vh;
+  margin-left: 2vw;
 }
 .contact{
   padding: 2vw;
@@ -689,12 +691,14 @@ appearance: none;}
   padding-left: 2vw;
   position: relative;
   top: 4vh;
+  margin-left: 2vw;
+  height:30vh
 }
 .opens{
   text-decoration: none;
 }
 .terms{
- padding-top: 10vh;}
+ padding-top: 10vh;margin-left: 2vw;}
  .end{
   
   height: 27vh;
@@ -703,4 +707,16 @@ appearance: none;}
   padding-top: 4vh;
   padding-left: 2vw;
 
+ }
+ .exp{
+  height: 100%;
+  width: 100%;
+  font-size: 1.8vh;
+
+ }
+ .experience{
+  font-size: 2vh;
+ }
+ .name1{
+  font-size: 3vh;
  }
