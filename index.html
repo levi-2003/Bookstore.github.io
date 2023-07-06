@@ -21,7 +21,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <style>
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1258/1258297.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
         .material-symbols-outlined {
           font-variation-settings:
           'FILL' 0,
@@ -30,7 +32,7 @@
           'opsz' 48
         }
         </style>
-    <title>Bookstore</title>
+    <title>Bookworm's Paradise</title>
 </head>
 <body>
     <section id="page1">
@@ -41,7 +43,7 @@
             <li><a href="#page1" class="menu1">Introduction</a></li>
             <LI><a href="#page2"class="menu1">Best Selling books</a></LI>
             <li><a href="#page3"class="menu1">Recommendations Section</a></li>
-            <li><a href="#"class="menu1">Customer Review</a></li>
+            <li><a href="#page4"class="menu1">Customer Review</a></li>
             <li><a href="#"class="menu1">Contact US</a></li>
         </ul>
     </nav>
@@ -110,9 +112,8 @@
     <h1 class="title2" style="padding-top: 1vh;">Recommended Reads</h1>
     <h2 class="sub">Explore The Shelves</h2>
     <form action="" class="explore">
-        <label for="search" class="search material-symbols-outlined"></label>
         <input type="text" class="searchbar" placeholder="Search Books">
-        <input type="button" class="material-symbols-outlined search1" value="search">
+        <input type="button" class="material-symbols-outlined search1" value="&#xe8b6;">
      </form>
      <hr class="line1">
      <div class="recom">
@@ -192,6 +193,62 @@
      </div>
     
 
+</section>
+<section id="page4">
+    <h1 class="title2">Customer Voices: Reviews and Discussions</h1>
+    <hr class="line">
+    <div class="review">
+        <div class="cust">
+            <div style="text-align: center;"><h2 class="subtitle" style="text-align: center;display: inline;">Customer Reviews</h2></div>
+            <div class="review1">
+                    <div class="customer-review">
+                        <img src="https://th.bing.com/th/id/OIP.vM4s5nsCU7nQ0gFIsyUAsAHaHa?w=197&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="photo">
+                        <h2 class="subtitle name1">Tom Cruise</h2>
+                        <h3 class="experience">Great Experience!</h3>
+                        <p class="exp">Absolutely enchanting! My recent visit to this bookstore was a delight. The ambiance was warm and inviting, with shelves stocked full of literary treasures. The staff was knowledgeable and eager to assist, making recommendations that were spot-on. I lost myself in the magic of books, spending hours exploring various genres. The experience was nothing short of fantastic! I left with a handful of beloved titles and a heart full of joy. Highly recommend this haven for fellow book enthusiasts! Rating:⭐️⭐️⭐️⭐️</p>
+                    </div>
+                    <div class="customer-review">
+                        <img src="https://th.bing.com/th/id/OIP.J9rJtUMn6VixcFzpainILQHaGv?w=181&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="photo">
+                        <h2 class="subtitle name1">Kanye West</h2>
+                        <h3 class="experience">Great Collections</h3>
+                        <p class="exp">I recently had an absolutely delightful experience at this charming bookstore. From the moment I stepped inside, I was captivated by the cozy atmosphere and the vast collection of books. The staff was incredibly friendly and knowledgeable, offering helpful recommendations and engaging in wonderful conversations about literature. I spent hours lost in the aisles, discovering hidden gems and immersing myself in the magic of books. This bookstore is a true haven for any avid reader. Highly recommended! Rating : ⭐️⭐️⭐️⭐️</p>
+                        
+                    </div><div class="customer-review">
+                        <img src="https://th.bing.com/th/id/OIP.iGHu0BknC2JcU91ZxX7tegHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="photo">
+                        <h2 class="subtitle name1">Calvin Cordozar Broadus Jr.</h2>
+                        <h3 class="experience">An Unforgettable Bookstore Adventure</h3>
+                        <p class="exp">My visit to this bookstore was an absolute delight! The moment I stepped inside, I was greeted by the comforting scent of books and a warm, inviting atmosphere. The shelves were lined with an impressive collection spanning various genres, and the staff was incredibly knowledgeable and passionate about literature. I spent hours exploring the nooks and crannies, discovering hidden gems. This store is a haven for book lovers, and I cannot wait to return! Rating:⭐️⭐️⭐️⭐️⭐️</p>
+                    </div>
+            </div>
+
+        </div>
+        <form action="" class="customer">
+            <h2 class="subtitle" style="text-align: center;">Share your Experience</h2>
+            <hr class="line2">
+         <div class="input-area">
+            <label for="name">Name : </label>
+            <input type="text" class="text">
+            <p><label for="email">Email : </label>
+            <input type="email" name="" id="" class='email'></p>
+            <p><label for="textbox">Suggestions : </label></p>
+            <textarea name="" id="" cols="40" rows="16"></textarea> 
+            <p><label for="">Rating :</label>
+            <div class="rating">
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+            </div>
+            </p>
+            <p><input type="submit" name="" id="" class="submit"></p>         
+            
+         </div>
+
+
+        </form>
+    </div>
+    
 </section>
 
 
