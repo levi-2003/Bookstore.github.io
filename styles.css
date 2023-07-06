@@ -476,6 +476,7 @@ column-gap: 1vw;}
   border-radius: 1vh;
   border-style: groove;
   box-shadow: 0.3vh 0.3vh;
+  transition: ease-in 0.5s;
 }
 .bookimg2{
   height: 25vh;
@@ -490,6 +491,153 @@ column-gap: 1vw;}
 ::placeholder{
   font-size: 2vh;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 3vh;
+  transform: 2vh;
+  height: 4vh;
+  width: 3vw;
+  
+}
+.explore > input{
+  font-size: 2vh;
+}
+.book2:hover{
+   border-width: 0.5vh;
+   height: 35vh;
+   width: 37vw;
+   transform: translateY(-20%);
+   z-index: 1;
+}
+.inside:hover{
+  transform: translateY(0);
+  height: 27vh;
+  width:20vw;
+  box-shadow: 0.3vh 0.3vh;
+}
+.inside{
+  transition: ease-out 1s;
+}
+#page4{
+  height: 100vh;
+  width: 100vw;
+  background-color: #F2EAD3;
+}
+.review{
+  display: flex;
+}
+.cust{
+  background-color: #E8F9FD;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 73vh;
+  padding: 1.6%;
+  border-radius: -1vh;
+}
+.review1{
+  display: flex;
+  column-gap: 2vw;
+}
+.customer-review{
+  display: flex;
+  flex-direction: column;
+  height:34rem;
+  width:20vw;
+  background-color: #FFEAEA;
+  padding: 1vh;
+  align-items: center;
+  margin-top: 3vh;
+  position: relative;
+  box-shadow: 0.3vh 0.3vh 1vh -1vh;
+  
+}
+.photo{
+  height: 20vh;
+  width:10vw;
+}
+.name1,.exp,.experienece{
+  margin: 1vh 0 1vh;
+}
+
+.exp,.experience{
+  font-family: 'Ysabeau SC', sans-serif;
+}
+.exp{
+  margin-top: 0.5vh;
+  font-weight:500;
+
+}
+.experience{
+  margin-bottom: 0.5vh;
+  text-align: center;
+  margin-top: 0.7vh ;
+}
+.name1{
+  margin-bottom: 0.8vh;
+}
+.customer{
+  width: 30%;
+  height: fit-content;
+  background-color: #EEEEEE;
+  align-items: center;
+  border-style: groove;
+}
+.line2{
+  border-top: 1vh;
+  border-style: double;
+  width: 80%;
+}
+.input-area{
+  margin-top: 5vh;
+  margin-left: 1vw;
+  position: relative;
+  font-size: 2.5vh;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.rating{
+  display: inline-flex;
+  flex-direction:row-reverse;
+  padding: 0;
+  margin:0;
+  position: relative;
+  left: 1vh;
+  transform: translateX(-10%);
+}
+.rating input{display: flex;
+  gap: 0.5vh;
+appearance: none;}
+.rating label{
+  height: 3vh;
+  width: 2vw;
+  cursor: pointer;
+}
+
+.rating input::before{
+  content: "\f005";
+  font-family: FontAwesome;
+  color: #2B2730;
+  position: relative;
+  display: block;
+  font-size: 3vh;
+  transition: 0.5s;
+}
+.rating input:hover~input::before,
+.rating input:hover::before,.rating input:checked~input::before,
+.rating input:checked::before{
+  color: yellow;
+}
+.text,.email{
+  width: 50%;
+  height: 2vh;
+}
+.submit{
+  background-color: #B9EDDD;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 2vh;
 }
