@@ -612,11 +612,7 @@ column-gap: 1vw;}
 .rating input{display: flex;
   gap: 0.5vh;
 appearance: none;}
-.rating label{
-  height: 3vh;
-  width: 2vw;
-  cursor: pointer;
-}
+
 
 .rating input::before{
   content: "\f005";
@@ -640,4 +636,5 @@ appearance: none;}
   background-color: #B9EDDD;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 2vh;
+  cursor: pointer;
 }
